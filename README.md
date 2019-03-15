@@ -1,6 +1,7 @@
-# Zentalk-Web
-Zentalk is a E2E, encrypted chat application.
+# Zentalk-Web -V 1.1
 
-in the works
+#### Zentalk is a E2E, encrypted chat application.
 
-## see: www.zentalk.chat
+#### In the works for more informatsion : www.Zentachain.io 
+
+#### Visit: www.zentalk.chat
