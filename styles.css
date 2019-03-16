@@ -166,12 +166,11 @@ p { font-size: x-small; }
     animation: spin 2s linear infinite;
 }
 
-@keyframes spin {
+@keyframes {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
 
-/* Message Input Bar */
 .message-input {
   background: none;
   border: none;
