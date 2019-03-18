@@ -1,7 +1,7 @@
 # Zentalk-Web -V 1.1
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
-#### Zentalk is a E2E, encrypted chat application.
+#### Zentalk is a E2EE, encrypted chat application.
 
 #### Client secure chat based on asymmetric encryption without open storage on server side.
 
