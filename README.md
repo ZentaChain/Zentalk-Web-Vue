@@ -1,4 +1,4 @@
-# Zentalk-Web -V 1.1
+# :busts_in_silhouette: Zentalk-Web -V 1.1 :statue_of_liberty:
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
 #### Zentalk is a E2EE, encrypted chat application.
