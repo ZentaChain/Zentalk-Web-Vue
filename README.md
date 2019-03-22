@@ -8,3 +8,5 @@
 #### In the works for more informatsion : www.Zentachain.io 
 
 #### Visit: www.zentalk.chat
+
+#### This project is under active development, there may be breaking changes.
