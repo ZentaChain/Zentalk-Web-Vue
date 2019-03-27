@@ -11,4 +11,4 @@
 
 #### This project is under active development, there may be breaking changes.
 
-#### Copyright Zentachain & 0x512
+#### Copyright Zentachain & 0x512 2019
