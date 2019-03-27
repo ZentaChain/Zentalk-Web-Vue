@@ -10,3 +10,5 @@
 #### Visit: www.zentalk.chat
 
 #### This project is under active development, there may be breaking changes.
+
+#### Copyright Zentachain & 0x512
