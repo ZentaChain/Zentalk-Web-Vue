@@ -1,14 +1,16 @@
 # :busts_in_silhouette: Zentalk Web - V 1.1 :statue_of_liberty:
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
-#### Zentalk is a E2EE, encrypted chat application.
+````
 
-#### Client secure chat based on asymmetric encryption without open storage on server side.
+Zentalk is a E2EE, encrypted chat application.
 
-#### In the works for more informatsion : www.Zentachain.io 
+Client secure chat based on asymmetric encryption without open storage on server side.
 
-#### Visit: www.zentalk.chat
+In the works for more informatsion : www.Zentachain.io 
 
-#### This project is under active development, there may be breaking changes.
+Visit: www.zentalk.chat
 
-#### Copyright Zentachain & 0xSha512 2019
+This project is under active development, there may be breaking changes.
+
+Copyright Zentachain & 0xSha512 2019
