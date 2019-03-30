@@ -7,7 +7,7 @@ Zentalk is a E2EE, encrypted chat application.
 
 Client secure chat based on asymmetric encryption without open storage on server side.
 
-In the works for more informatsion : www.Zentachain.io 
+For more informatsion : www.Zentachain.io 
 
 Visit: www.zentalk.chat
 
