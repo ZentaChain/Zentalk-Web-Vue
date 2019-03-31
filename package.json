@@ -10,7 +10,6 @@
     "node": ">=7.6"
   },
   "scripts": {
-    "start": "node app.js"
   },
   "dependencies": {
     "@octokit/rest": "^16.16.3",
