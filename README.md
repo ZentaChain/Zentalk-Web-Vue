@@ -1,4 +1,7 @@
 ## :busts_in_silhouette: Zentalk Web - V 1.1 :statue_of_liberty:
+
+[![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](www.zentalk.chat)
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
 ````
