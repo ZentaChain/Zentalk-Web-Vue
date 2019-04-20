@@ -1,4 +1,4 @@
-## :busts_in_silhouette: Zentalk Web - V 1.1 :statue_of_liberty:
+## :busts_in_silhouette: Zentalk Web - 1.1 :statue_of_liberty:
 
 [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](www.zentalk.chat)
 
@@ -14,7 +14,7 @@ For more informatsion : www.Zentachain.io
 
 Visit: www.zentalk.chat
 
-Tor supported ❎ Use VPN over Tor Browser to cover your IP-Adress do not use a Web Porvider VPN-
+Tor supported ❎ Use VPN over Tor Browser to cover your IP-Adress do not use a *Web Porvider VPN*
 
 *Copyright all rights reserved Zentachain.io & 0xSha512 2019
 ````
