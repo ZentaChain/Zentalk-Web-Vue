@@ -14,7 +14,9 @@ For more informatsion : www.Zentachain.io
 
 Visit: www.zentalk.chat
 
-Tor supported ❎ Use VPN over Tor Browser to cover your IP-Adress do not use a *Web Porvider VPN*
+Tor isn´t supported ❎ 
+
+Use VPN at this over Tor-browser to cover your IP-adress do not use a *Web Porvider VPN*
 
 *Copyright all rights reserved Zentachain.io & 0xSha512 2019
 ````
