@@ -1,4 +1,4 @@
-## :busts_in_silhouette: Zentalk Web - 1.1 :statue_of_liberty:
+## :statue_of_liberty: Zentalk Web - 1.1 :statue_of_liberty:
 
 [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](www.zentalk.chat)
 
