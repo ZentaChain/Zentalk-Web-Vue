@@ -16,8 +16,6 @@ Visit: www.zentalk.chat
 
 Tor isn´t supported ❎ 
 
-Use VPN at this time over the Tor-browser to cover your IP-adress do not use a *Web Porvider VPN*
-
 *Copyright all rights reserved Zentachain.io & 0xSha512 2019
 ````
 ##### This project is under active development, there may be breaking changes.
