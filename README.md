@@ -7,12 +7,9 @@
 ##### Client secure chat based on asymmetric encryption without open storage on server side.
 
 ````
-
 Zentalk is a E2EE, encrypted chat application.
 
 Tor isn´t supported ❎ 
-
-*Copyright all rights reserved Zentachain.io & 0xSha512 2019
 ````
 
 ##### Visit:
@@ -21,3 +18,4 @@ Tor isn´t supported ❎
 ##### For more informatsion : 
 ##### * [Zentachain.io](www.Zentachain.io) 
 ##### *[This project is under active development, there may be breaking changes.]
+##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2019]
