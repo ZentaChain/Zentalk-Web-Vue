@@ -20,4 +20,4 @@ Tor isn´t supported ❎
 
 ##### For more informatsion : 
 ##### * [Zentachain.io](www.Zentachain.io) 
-##### This project is under active development, there may be breaking changes.
+##### *[This project is under active development, there may be breaking changes.]
