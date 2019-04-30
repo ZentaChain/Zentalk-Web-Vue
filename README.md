@@ -13,7 +13,7 @@ Tor isn´t supported ❎
 ````
 
 ##### Visit:
-##### * [Zentalk](www.zentalk.chat)
+##### * [Zentalk Web](www.zentalk.chat)
 
 ##### For more informatsion : 
 ##### * [Zentachain.io](www.Zentachain.io) 
