@@ -14,7 +14,7 @@ Tor isn´t supported ❎
 
 ##### Visit:
 ##### *[Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
-##### * [Zentalk Web](www.zentalk.chat)
+##### *[Zentalk Web](www.zentalk.chat)
 
 ##### For more informatsion and what is Zentalk : 
 ##### * [Zentachain.io](www.Zentachain.io) 
