@@ -1,10 +1,10 @@
 self.window = self 
 
 
-self.importScripts('https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/2.3.1/jsencrypt.min.js');
 
-let crypt = null
-let privateKey = null
+
+let crypt = 1
+let privateKey = 1
 
 
 onmessage = function (e) {
