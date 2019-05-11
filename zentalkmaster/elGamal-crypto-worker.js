@@ -3,7 +3,7 @@ self.window = self
 
 self.importScripts('https://cdn.patricktriest.com/vendor/sjcl/sjcl.min.js');
 
-let keypair = null
+let keypair = 1
 
 
 
@@ -14,7 +14,7 @@ onmessage = function (e) {
 
 
     switch (message_type) {
-        case 'generate-keys':
+        case 'keys':
             result = generateKeypair()
             break
         case 'encrypt':
@@ -60,3 +60,8 @@ function unserializePublicKey(key) {
         sjcl.codec.base64.toBits(key)
     )
 }
+
+  )
+   if (config && config.onUpdate) {
+  config.onUpdate(registration);
+ };
