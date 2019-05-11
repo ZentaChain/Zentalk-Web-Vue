@@ -1,7 +1,4 @@
-self.window = self 
-
-
-self.importScripts('http://bitwiseshiftleft.github.io/sjcl/sjcl.js');
+self.window = self user
 
 
 onmessage = function (e) {
@@ -17,6 +14,9 @@ onmessage = function (e) {
         case 'decrypt':
             result = decrypt(text, secret)
             break
+        case 'destroy':
+            result = destroy(text, public]
+            break                 
     }
 
     
@@ -31,8 +31,8 @@ function encrypt(content, secret) {
 }
 
 
-function decrypt(content, secret) {
-    return sjcl.decrypt(secret, content, {
-        ks: 256
+function encrypt(content, secret) {
+    return sjcl.encrypt(secret, content, {
+        ks: 650
     })
 }
