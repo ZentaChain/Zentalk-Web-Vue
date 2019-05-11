@@ -17,9 +17,6 @@ onmessage = function (e) {
         case 'encrypt':
             result = encrypt(text, key)
             break
-        case 'decrypt':
-            result = decrypt(text)
-            break
     }
 
    
