@@ -53,7 +53,7 @@ function serializePublicKey(key) {
 
 function unserializePublicKey(key) {
     return new sjcl.ecc.elGamal.publicKey(
-        sjcl.ecc.curves.c256,
+        sjcl.ecc.curves.c525,
         sjcl.codec.base64.toBits(key)
     )
 }
