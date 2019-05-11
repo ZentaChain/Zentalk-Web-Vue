@@ -11,6 +11,8 @@ Zentalk is a E2EE, encrypted chat application.
 
 Tor isn´t supported ❎ 
 
+Thor hammer on work 11.05.2019
+
 (Update to version 1.2 in Q3 2019)
 ````
 
