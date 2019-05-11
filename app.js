@@ -1,7 +1,3 @@
-const express = require('express')
-
-
-const app = express()
 const http = require('http').Server(app)
 
 
@@ -63,6 +59,13 @@ io.on('connection', (socket) => {
   socket.on('disconnect', () => {
     socket.broadcast.to(currentRoom).emit('USER_DISCONNECTED', null)
   })
+      window.addEventListener('load', () => {
+      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;
+})
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
 })
 
 
