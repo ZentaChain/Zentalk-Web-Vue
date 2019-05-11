@@ -26,7 +26,7 @@ onmessage = function (e) {
 
 function encrypt(content, secret) {
     return sjcl.encrypt(secret, content, {
-        ks: 256
+        ks: 350
     })
 }
 
