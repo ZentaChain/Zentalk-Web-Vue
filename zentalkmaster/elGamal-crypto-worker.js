@@ -1,8 +1,5 @@
 self.window = self 
 
-
-self.importScripts('https://cdn.patricktriest.com/vendor/sjcl/sjcl.min.js');
-
 let keypair = 1
 
 
