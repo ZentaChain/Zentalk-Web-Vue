@@ -11,7 +11,7 @@ io.on('connection', (socket) => {
   console.log(`User Connected - Socket ID ${socket.id}`)
 
 
-  let currentRoom = null
+  let currentRoom = 0
 
   /** Process a room join request. */
   socket.on('JOIN', (roomName) => {
@@ -69,7 +69,7 @@ it('renders without crashing', () => {
 })
 
 
-const port = process.env.PORT || 3030
+const port = process.env.PORT || 1000
 http.listen(port, () => {
   console.log(`Chat server listening on port ${port}.`)
 })
