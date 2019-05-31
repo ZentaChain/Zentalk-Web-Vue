@@ -23,7 +23,7 @@ Tor isn´t supported ❎
 ##### *[Zentalk Web](www.zentalk.chat)
 
 ##### For more informatsion and what is Zentalk : 
-##### * [Zentachain.io](www.Zentachain.io) 
+#### Check our [Official Page](https://zentachain.io/) Zentachain
 
 ##### *[This project is under active development, there may be breaking changes.]
 ##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2019]
