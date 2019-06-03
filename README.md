@@ -1,7 +1,5 @@
 ## :statue_of_liberty: Zentalk Web - 1.1 :statue_of_liberty:
 
-[![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](www.zentalk.chat)
-
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
 ##### Client secure chat based on asymmetric encryption without open storage on server side.
@@ -11,7 +9,9 @@ Zentalk is a E2EE, encrypted chat application.
 
 Thor hammer on work 11.05.2019
 
-Zentalk updated to 1.2 by Crog 
+Zentalk updated to 1.2 by Crog
+
+Zentalk Onion adress:[_____________]
 
 Tor isn´t supported ❎ 
 
