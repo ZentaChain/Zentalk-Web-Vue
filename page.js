@@ -10,7 +10,7 @@ const vm = new Vue ({
       messages: [],
       notifications: [],
       currentRoom: null,
-      pendingRoom: Math.floor(Math.random() * 1000),
+      pendingRoom: Math.floor(Math.random() 100* 100),
       draft: ''
     }
   },
