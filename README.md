@@ -7,15 +7,15 @@
 ````
 Zentalk is a E2EE, encrypted chat application.
 
-Thor hammer on work 11.05.2019
+T(H)or-hammer on work 11.05.2019)
 
-Zentalk updated to 1.2 by Crog
+Zentalk updated to 1.3 by Crog
 
 Zentalk Onion adress:[_____________]
 
 Tor isn´t supported ❎ 
 
-(Updated to version 1.3 in Q3 2019)
+(Updated to version 1.4 on Work by Crog)
 ````
 
 ##### Visit:
