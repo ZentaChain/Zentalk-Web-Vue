@@ -4,19 +4,20 @@
 
 ##### Client secure chat based on asymmetric encryption without open storage on server side.
 
-````
+
 Zentalk is a E2EE, encrypted chat application.
 
 T(H)or-hammer on work 11.05.2019)
 
-Zentalk updated to 1.3 by Crog
+- [x] Zentalk updated to 1.3 by Crog
 
 Zentalk Onion adress:[_____________]
 
 Tor isn´t supported ❎ 
 
 (Updated to version 1.4 on Work by Crog)
-````
+
+--------
 
 ##### Visit:
 ##### *[Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
