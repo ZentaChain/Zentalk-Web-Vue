@@ -1,6 +1,6 @@
 
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
+
 
 <!--
 *** Hey, Welcome to Zentalks GitHub Page, we hope you like it :)
@@ -16,6 +16,7 @@
   </a>
 
   <h3 align="center">Wellcome to Zentallk</h3>
+  [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
   <p align="center">
    Zentalk is a E2EE, encrypted chat application made by ZentaChain.
