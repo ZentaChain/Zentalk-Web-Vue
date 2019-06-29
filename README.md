@@ -50,7 +50,7 @@ T(H)or-hammer on work 11.05.2019)
 
 Zentalk Onion adress:[_____________]
 
-Tor isn´t supported at this time ❎ 
+Tor support coming soon!
 
 <!-- LICENSE -->
 ## License and Links
