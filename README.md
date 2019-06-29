@@ -1,4 +1,6 @@
+<p align="center">
 ## :statue_of_liberty: Zentalk Web - 1.1 :statue_of_liberty:
+</p>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
@@ -20,7 +22,7 @@
   <p align="center">
    Zentalk is a E2EE, encrypted chat application made by ZentaChain.
     <br />
-    <a href="https://github.com/ZentaChain/Zentalk-Web"><strong>Zentalk</strong></a>
+    <a href="http://zentalk.chat"><strong>Zentalk</strong></a>
     <br />
     <br />
     <a href="https://github.com/ZentaChain/Zentalk-Web/">Github Docs»</a>
@@ -34,6 +36,7 @@
 
 
 <!-- ABOUT ZENTADEX -->
+
 ## ZENTALK
 
 The Platform as you see is just an Addon to the whole Zentachain univerese. If you like you can contact us over E-mail , [Twitter](https://twitter.com/zentachain) or [Telegramm](https://t.me/ZentachainOfficialChat). Our Team will help you out!
