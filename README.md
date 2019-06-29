@@ -1,6 +1,4 @@
-<p align="center">
-## :statue_of_liberty: Zentalk Web - 1.1 :statue_of_liberty:
-</p>
+
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
