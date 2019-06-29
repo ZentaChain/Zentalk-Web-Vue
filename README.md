@@ -2,10 +2,44 @@
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://zentachain.io)
 
-##### Client secure chat based on asymmetric encryption without open storage on server side.
+<!--
+*** Hey, Welcome to Zentalks GitHub Page, we hope you like it :)
+-->
 
 
-Zentalk is a E2EE, encrypted chat application.
+
+<!-- Zenta LOGO -->
+<br />
+<p align="center">
+  <a href="zentachain.com">
+    <img src="logo.png" alt="Logo" width="70" height="80">
+  </a>
+
+  <h3 align="center">Wellcome to Zentallk</h3>
+
+  <p align="center">
+   Zentalk is a E2EE, encrypted chat application made by ZentaChain.
+    <br />
+    <a href="https://github.com/ZentaChain/Zentalk-Web"><strong>Zentalk</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ZentaChain/Zentalk-Web/">Github Docs»</a>
+    ·
+    <a href="http://zentalk.chat">Website</a>
+    ·
+    <a href="http://Zentachain.io">Zentachain</a>
+  </p>
+</p>
+
+
+
+<!-- ABOUT ZENTADEX -->
+## ZENTALK
+
+The Platform as you see is just an Addon to the whole Zentachain univerese. If you like you can contact us over E-mail , [Twitter](https://twitter.com/zentachain) or [Telegramm](https://t.me/ZentachainOfficialChat). Our Team will help you out!
+
+
+
 
 - [x] Zentalk updated to 1.3 by Crog
 
@@ -17,8 +51,8 @@ Zentalk Onion adress:[_____________]
 
 Tor isn´t supported at this time ❎ 
 
---------
-
+<!-- LICENSE -->
+## License and Links
 ##### Visit:
 ##### *[Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
 ##### *[Zentalk Web](www.zentalk.chat)
@@ -28,3 +62,5 @@ Tor isn´t supported at this time ❎
 
 ##### *[This project is under active development, there may be breaking changes.]
 ##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2019]
+
+
