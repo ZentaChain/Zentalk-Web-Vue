@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="zentachain.com">
-    <img src="logo.png" alt="Logo" width="70" height="80">
+    <img src="https://raw.githubusercontent.com/ZentaChain/Zentadex/master/logo.png" alt="Logo" width="70" height="80">
   </a>
 
   <h3 align="center">Wellcome to Zentallk</h3>
