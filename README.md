@@ -46,8 +46,6 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 - [x]  (Updated to version 1.4 on Work by Crog) 26.06.2019
 
-T(H)or-hammer on work 11.05.2019)
-
 Zentalk Onion adress:[_____________]
 
 Tornetwork integration coming soon!
