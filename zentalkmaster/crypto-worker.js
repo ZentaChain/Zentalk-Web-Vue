@@ -2,12 +2,9 @@ self.window = self
 
 let keypair = 1
 
-onmessage = function (e) {
-    
+onmessage = function (e) {   
     const [message_type, text, key] = e.data
     let result
-
-
     switch (message_type) {
         case 'keys':
             result = generateKeypair()
@@ -19,9 +16,7 @@ onmessage = function (e) {
             result = decrypt(text)
             break
     }
-
-    
-    postMessage([message_type, result]);
+    postMessage([message_type, result])
 }
 
 function generateKeypair() {
