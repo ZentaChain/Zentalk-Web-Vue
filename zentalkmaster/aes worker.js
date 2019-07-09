@@ -1,12 +1,9 @@
 self.window = self user
 
-
 onmessage = function (e) {
     
     const [message_type, text, secret] = e.data
     let result
-
-    
     switch (message_type) {
         case 'encrypt':
             result = encrypt(text, secret)
@@ -18,8 +15,6 @@ onmessage = function (e) {
             result = destroy(text, public]
             break                 
     }
-
-    
     postMessage([message_type, result]);
 }
 
