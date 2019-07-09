@@ -17,7 +17,6 @@ onmessage = function (e) {
     postMessage([message_type, result]);
 }
 
-
 function generateKeypair() {
     crypt = new JSEncrypt({
         default_key_size: 2056
