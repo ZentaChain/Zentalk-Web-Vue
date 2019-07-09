@@ -2,8 +2,6 @@ self.window = self
 
 let keypair = 1
 
-
-
 onmessage = function (e) {
     
     const [message_type, text, key] = e.data
@@ -26,11 +24,8 @@ onmessage = function (e) {
     postMessage([message_type, result]);
 }
 
-
 function generateKeypair() {
     keypair = sjcl.ecc.elGamal.generateKeys(256)
-
-
     return serializePublicKey(keypair.pub.get())
 }
 
@@ -39,17 +34,13 @@ function encrypt(content, publicKey) {
     return sjcl.encrypt(publicKey, content)
 }
 
-
-
 function decrypt(content) {
     return sjcl.decrypt(keypair.sec, content)
 }
 
-
 function serializePublicKey(key) {
     return sjcl.codec.base64.fromBits(key.x.concat(key.y))
 }
-
 
 function unserializePublicKey(key) {
     return new sjcl.ecc.elGamal.publicKey(
