@@ -12,22 +12,20 @@ onmessage = function (e) {
             result = decrypt(text, secret)
             break
         case 'destroy':
-            result = destroy(text, public]
-            break                 
+            result = destroy(text, public)
+            break            
     }
     postMessage([message_type, result]);
 }
 
-
 function encrypt(content, secret) {
     return sjcl.encrypt(secret, content, {
-        ks: 350
+        ks: 15360
     })
 }
 
-
 function encrypt(content, secret) {
     return sjcl.encrypt(secret, content, {
-        ks: 650
+        ks: 15360
     })
-}
+};
