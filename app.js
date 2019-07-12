@@ -12,7 +12,7 @@ io.on('connection', (socket) => {
 
   /** Process a room join request. */
   socket.on('JOIN', (roomName) => {
-    let room = io.sockets.adapter.rooms[roomName]
+  let room = io.sockets.adapter.rooms[roomName]
     if (room && room.length > 1) {
       io.to(socket.id).emit('ROOM_FULL', null)
       socket.broadcast.to(roomName).emit('INTRUSION_ATTEMPT', null)
@@ -31,7 +31,6 @@ io.on('connection', (socket) => {
     socket.broadcast.to(currentRoom).emit('MESSAGE', msg)
   });
 
-  
   socket.on('PUBLIC_KEY', (key) => {
     socket.broadcast.to(currentRoom).emit('PUBLIC_KEY', key)
   });
