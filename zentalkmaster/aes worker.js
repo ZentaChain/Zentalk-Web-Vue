@@ -10,9 +10,6 @@ onmessage = function (e) {
             break
         case 'decrypt':
             result = decrypt(text, secret)
-            break
-        case 'destroy':
-            result = destroy(text, public)
             break            
     }
     postMessage([message_type, result]);
