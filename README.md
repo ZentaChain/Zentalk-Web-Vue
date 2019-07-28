@@ -17,12 +17,12 @@
 
   <h3 align="center">Wellcome to Zentallk</h3>
 
-  <p align="center">
-   Zentalk is a E2EE, encrypted chat application made by ZentaChain.
-    <br />
+  <p align="center"><em>
+   Zentalk is a highly secure encrypted chat application made by ZentaChain.
+    </em><br/>
     <a href="http://zentalk.chat"><strong>Zentalk</strong></a>
-    <br />
-    <br />
+    <br/>
+    <br/>
     <a href="https://github.com/ZentaChain/Zentalk-Web/">Github Docs»</a>
     ·
     <a href="http://zentalk.chat">Website</a>
