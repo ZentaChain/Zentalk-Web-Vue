@@ -47,8 +47,6 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 Zentalk Onion adress:[_____________]
 
-*Zentalk is no more supporting 256-KeySize it has been updated to get more secure.* 04.08.2019
-
 Tornetwork integration coming soon!
 
 <!-- LICENSE -->
