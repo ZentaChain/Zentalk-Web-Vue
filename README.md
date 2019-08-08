@@ -41,13 +41,13 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 
 
-- [x] Zentalk updated to 1.3 by Crog
+- [x] *Zentalk updated to 1.3 by Crog*
 
-- [x]  (Updated to version 1.4 on Work by Crog) 26.06.2019
+- [x]  *(Updated to version 1.4 on Work by Crog) 26.06.2019*
 
-Zentalk Onion adress:[_____________]
+*Zentalk Onion adress:[_____________]*
 
-Tornetwork integration coming soon!
+*Tornetwork integration coming soon!*
 
 <!-- LICENSE -->
 ## *License and Links*
