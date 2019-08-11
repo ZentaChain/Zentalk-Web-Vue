@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6,
   border: none;
   color: white;
   display: inline;
-  
+  width: 1200px;
 }
 
 .bottom-bar {
@@ -252,5 +252,36 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .message-list {
-  margin-bottom: 40px;
+  margin-bottom: 400px;
+}
+
+
+/*Schroll-Bar*/
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-button {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 91, 91);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-corner {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-resizer {
+  background: #111;
 }
