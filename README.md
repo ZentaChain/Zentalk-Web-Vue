@@ -45,6 +45,8 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 - [x]  *(Updated to version 1.4 on Work by Crog) 26.06.2019*
 
+- [ ]  *ssl certificate*
+
 *Zentalk Onion adress:[_____________]*
 
 *Tornetwork integration coming soon!*
