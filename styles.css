@@ -1,4 +1,5 @@
-/* Global */
+/*Global*/
+
 :root {
   --black: #0f0f0f;
   --light-color: #ffffffe8;
@@ -43,7 +44,8 @@ textarea:focus, input:focus { outline: none; }
   overflow-x: hidden;
 }
 
-/** Chat Window **/
+/*Chat Window*/
+
 .chat-container {
   flex: 0 0 60%;
   word-wrap: break-word;
@@ -80,6 +82,7 @@ textarea:focus, input:focus { outline: none; }
 }
 
 /* Info Panel */
+
 #chatjoin {
   position: relative;
 }
@@ -137,14 +140,15 @@ textarea:focus, input:focus { outline: none; }
   overflow-x: hidden;
 }
 
-/*-----Container-----*/
+/*Container*/
+
 .info-container {
   border-width: 1px;
   border-block-end: #0f0f0f00;
   border-color: aqua;
 }
 
-/*--------Fonts----------*/
+/*Fonts*/
 
 h1, h2, h3 { font-family: 'Nunito', sans-serif; }
 h1 { font-size: xx-large; }
@@ -161,7 +165,6 @@ h1, h2, h3, h4, h5, h6,
 	line-height: 1.35;
 	color: #fff;
 }
-
 
 .keys > .dividerkey {
   padding-top: 1px;
@@ -181,8 +184,6 @@ h1, h2, h3, h4, h5, h6,
   border-bottom: 2px solid rgb(255, 255, 255);
   width: 100%;
   padding: 0 1rem;
-  
-  
 }
 
 .navbar-inverse .navbar-brand {
@@ -237,7 +238,8 @@ h1, h2, h3, h4, h5, h6,
  100% { transform: rotate(360deg); }
 }
 
-/* Message Input Bar */
+/*Message Input Bar*/
+
 .message-input {
   background: none;
   border: 0;
@@ -262,7 +264,6 @@ h1, h2, h3, h4, h5, h6,
 .message-list {
   margin-bottom: 400px;
 }
-
 
 /*Schroll-Bar*/
 
