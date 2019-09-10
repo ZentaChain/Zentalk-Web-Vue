@@ -22,6 +22,8 @@
     "end-to-end",
     "encrypted",
     "chat",
-    "application."
+    "application",
+    "Zentalk-Web",
+    "AES-RSA"
   ]
 }
