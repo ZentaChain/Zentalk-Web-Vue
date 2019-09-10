@@ -1,4 +1,4 @@
-/** The core Vue instance controlling the UI */
+/** The core Vue UI */
 const vm = new Vue ({
   el: '#vue-instance',
   data () {
@@ -75,23 +75,15 @@ const vm = new Vue ({
         this.addNotification('A third user are attempted to join the Zentarooms')
       })
     },
-
     
     async sendMessage () {
-      
       if (!this.draft || this.draft === '') { return }
-
-      
       let message = Immutable.Map({
         text: this.draft,
         recipient: this.destinationPublicKey,
         sender: this.originPublicKey
       })
-
-      
       this.draft = ''
-
-      
       this.addMessage(message.toObject())
 
       if (this.destinationPublicKey) {
@@ -112,13 +104,11 @@ const vm = new Vue ({
         this.socket.emit('JOIN', this.pendingRoom)
       }
     },
-
     
     addMessage (message) {
       this.messages.push(message)
       this.autoscroll(this.$refs.chatContainer)
     },
-
     
     addNotification (message) {
       const timestamp = new Date().toLocaleTimeString()
@@ -126,21 +116,13 @@ const vm = new Vue ({
       this.autoscroll(this.$refs.notificationContainer)
     },
 
-    
     getWebWorkerResponse (messageType, messagePayload) {
       return new Promise((resolve, reject) => {
-        
         const messageId = Math.floor(Math.random() * 100000 * 10)
-
         this.ZentalkWorker.postMessage([messageType, messageId].concat(messagePayload))
-
         const handler = function (e) {
-          
           if (e.data[0] === messageId) {
-            
             e.currentTarget.removeEventListener(e.type, handler)
-
-            
             resolve(e.data[1])
           }
         }
@@ -148,7 +130,6 @@ const vm = new Vue ({
       })
     },
 
-    
     sendPublicKey () {
       if (this.originPublicKey) {
         this.socket.emit('PUBLIC_KEY', this.originPublicKey)
@@ -156,11 +137,11 @@ const vm = new Vue ({
     },
     
     getKeySnippet (key) {
-      return key.slice(400, 416, 500)
+      return key.slice(400, 416)
     },
 
     autoscroll (element) {
       if (element) { element.scrollTop = element.scrollHeight }
     }
   }
-})
+});
