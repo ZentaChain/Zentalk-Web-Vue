@@ -14,22 +14,24 @@
   <meta name="description" content="Zentalk is a end-to-end, RSA-2048 Encrypted Chat-Application.">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 </head>
 
 <body>
+  <body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);"></body>
   <div id="vue-instance">
     <div class="chat-container full-width" ref="chatContainer"
       >
       <div class="logo">
-          <div class="navbar">
+          <div class="navbar" style="fixed">
           <nav class="navbar navbar-inverse ">
             <div class="container-fluid">
               <div class="navbar-header">
-                <a class="navbar-brand" href="#">Zentalk</a>
+                <a class="navbar-brand" href="https://zentachain.io">Zentalk</a>
               </div>
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Chat</a></li>
-                <li><a href=https://zentachain.io>About</a></li>
+                <li><a href=https://zentachain.io/zentalk.html>About</a></li>
                 <li><a href="links.html"></a></li>
               </ul>
             </div>
@@ -62,7 +64,7 @@
       </div>
 
       <div class="flex-fill"></div>
-        <div class="divider"></div>
+      <div class="divider"></div>
       <div class="keys full-width">
         <h4 style="text-align:center;">THEIR PUBLIC KEY</h4>
         <div class="keyId" v-if="destinationPublicKey">
