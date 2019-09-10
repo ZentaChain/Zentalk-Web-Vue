@@ -1,7 +1,7 @@
 /* Global */
 :root {
-  --black: #000000;
-  --light-color: #ff206be8;
+  --black: #0f0f0f;
+  --light-color: #ffffffe8;
   --highlight: rgb(255, 138, 71);
   --white: #ffffff;
 }
@@ -9,14 +9,15 @@
 body {
   background: var(--black);
   color: var(--light-color);
-  font-family: 'Nunito', monospace;
+  font-family: 'Roboto';
   height: 100vh;
   display: flex;
   padding: 0;
   margin: 0;
+  font-size: 16px;
 }
 
-div { box-sizing: border-box; font-size: 12px; text-align: justify;  }
+div { box-sizing: border-box; font-size: 12px;  }
 
 input, textarea, select { font-family: inherit; font-size: small; }
 textarea:focus, input:focus { outline: none; }
@@ -122,7 +123,7 @@ textarea:focus, input:focus { outline: none; }
 .notification-timestamp {
   flex: 0 15%;
   padding-right: 12px;
-  color: aquamarine;;
+  color: rgb(211, 211, 211);
 }
 
 .notification-message { flex: auto; }
@@ -138,8 +139,9 @@ textarea:focus, input:focus { outline: none; }
 
 /*-----Container-----*/
 .info-container {
+  border-width: 1px;
+  border-block-end: #0f0f0f00;
   border-color: aqua;
-  border-width: 3px;
 }
 
 /*--------Fonts----------*/
@@ -164,8 +166,8 @@ h1, h2, h3, h4, h5, h6,
 .keys > .dividerkey {
   padding-top: 1px;
   height: 1px;
-  min-width: 200%;
-  background: aqua;
+  min-width: 100%;
+  background: rgb(0, 0, 0);
   margin: 12px -12px;
   flex: 1;
 }
@@ -175,8 +177,12 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .container-fluid {
-  background: #000000;
-  border-radius: 0px;
+  background: #0f0f0f;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 100%;
+  padding: 0 1rem;
+  
+  
 }
 
 .navbar-inverse .navbar-brand {
@@ -234,14 +240,16 @@ h1, h2, h3, h4, h5, h6,
 /* Message Input Bar */
 .message-input {
   background: none;
-  border: none;
+  border: 0;
   color: white;
   display: inline;
-  width: 1200px;
+  width: 100%;
+  outline: 0;
+  resize: none !important;
 }
 
 .bottom-bar {
-  border-top: solid 2px var(--light-color);
+  border-top: solid 1px var(--light-color);
   border-color: aqua;
   background: black;
   position: fixed;
@@ -259,29 +267,6 @@ h1, h2, h3, h4, h5, h6,
 /*Schroll-Bar*/
 
 ::-webkit-scrollbar {
-  width: 4px;
-}
-
-::-webkit-scrollbar-button {
-  background: rgb(0, 0, 0);
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgb(255, 91, 91);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(0, 0, 0);
-}
-
-::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);
-}
-
-::-webkit-scrollbar-corner {
-  background: rgb(0, 0, 0);
-}
-
-::-webkit-resizer {
-  background: #111;
+  width: 0px;
+  overflow: hidden;
 }
