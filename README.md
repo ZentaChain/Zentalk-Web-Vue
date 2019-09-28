@@ -47,6 +47,8 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 - [ ]  *ssl certificate*
 
+- [ ]  *Man-in-the-Browser protection*
+
 *Zentalk Onion adress:[_____________]*
 
 *Tornetwork integration coming soon!*
