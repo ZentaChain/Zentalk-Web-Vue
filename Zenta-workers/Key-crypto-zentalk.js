@@ -29,7 +29,7 @@ onmessage = function (e) {
 
 
 function generateKeypair() {
-    keypair = sjcl.ecc.elGamal.generateKeys(512)
+    keypair = sjcl.ecc.elGamal.generateKeys(256)
 
 
     return serializePublicKey(keypair.pub.get())
@@ -54,7 +54,7 @@ function serializePublicKey(key) {
 
 function unserializePublicKey(key) {
     return new sjcl.ecc.elGamal.publicKey(
-        sjcl.ecc.curves.c512,
+        sjcl.ecc.curves.c256,
         sjcl.codec.base64.toBits(key)
     )
 }
