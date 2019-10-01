@@ -26,13 +26,13 @@ onmessage = function (e) {
 
 function encrypt(content, secret) {
     return sjcl.encrypt(secret, content, {
-        ks: 512
+        ks: 256
     })
 }
 
 
 function decrypt(content, secret) {
     return sjcl.decrypt(secret, content, {
-        ks: 512
+        ks: 256
     })
 }
