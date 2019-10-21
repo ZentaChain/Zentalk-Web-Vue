@@ -18,7 +18,7 @@
   <h3 align="center">Wellcome to Zentallk</h3>
 
   <p align="center"><em>
-   Zentalk is a highly secure encrypted chat application made by ZentaChain.
+   Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application made by Zentachain.
     </em><br/>
     <a href="http://zentalk.chat"><strong>Zentalk</strong></a>
     <br/>
