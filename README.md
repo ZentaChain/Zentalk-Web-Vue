@@ -45,9 +45,11 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 - [x] *Updated to version 1.4 on Work by Crog 26.06.2019*
 
-- [x] *RSA,AES-256 14 Rounds*
+- [x] *RSA,AES-256 14 Rounds(128 Bit Block Size*
 
-- [ ]  *ssl certificate*
+- [x] *Key-Share=El-Gamal*
+
+- [ ]  *SSl certificate*
 
 - [ ]  *Man-in-the-Browser protection*
 
