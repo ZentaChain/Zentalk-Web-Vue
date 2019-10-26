@@ -15,7 +15,7 @@
     <img src="https://raw.githubusercontent.com/ZentaChain/Zentadex/master/logo.png" alt="Logo" width="70" height="80">
   </a>
 
-  <h3 align="center">Wellcome to Zentallk</h3>
+  <h3 align="center">Wellcome to Zentallk Web Messenger App</h3>
 
   <p align="center"><em>
    Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
