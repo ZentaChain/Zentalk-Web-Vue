@@ -49,7 +49,7 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 - [x] *Key-Share=El-Gamal*
 
-- [ ]  *SSl certificate*
+- [ ]  *SSl certificate note there is no SSL Encryption but the Applicatsion is Safe manipulatsion are possible only on own Log*
 
 - [ ]  *Man-in-the-Browser protection*
 
