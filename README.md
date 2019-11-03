@@ -15,7 +15,7 @@
     <img src="https://raw.githubusercontent.com/ZentaChain/Zentadex/master/logo.png" alt="Logo" width="70" height="80">
   </a>
 
-  <h3 align="center">Wellcome to Zentallk Web Messenger App</h3>
+  <h3 align="center">Welcome to Zentalk Web Messenger App</h3>
 
   <p align="center"><em>
    Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
@@ -37,7 +37,7 @@
 
 ## ZENTALK
 
-The Platform as you see is just an Addon to the whole Zentachain univerese. If you like you can contact us over E-mail , [Twitter](https://twitter.com/zentachain) or [Telegramm](https://t.me/ZentachainOfficialChat). Our Team will help you out!
+The Platform you see is just an addon to the whole Zentachain universe. If you like you can contact us over E-mail , [Twitter](https://twitter.com/zentachain) or [Telegram](https://t.me/ZentachainOfficialChat). Our Team will help you out!
 
 
 
@@ -49,7 +49,7 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 
 - [x] *Key-Share=El-Gamal*
 
-- [ ]  *SSl certificate note there is no SSL Encryption but the Applicatsion is Safe manipulatsion are possible only on own Log*
+- [ ]  *SSL certificate note there is no SSL Encryption but the Application is Safe manipulation is possible only on own log*
 
 - [ ]  *Man-in-the-Browser protection*
 
@@ -63,7 +63,7 @@ The Platform as you see is just an Addon to the whole Zentachain univerese. If y
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
 * [Zentalk Web](www.zentalk.chat)
 
-##### *For more informatsion and what is Zentalk :*
+##### *For more information about Zentalk :*
 ##### *Check our [Official Page](https://zentachain.io/) Zentachain*
 
 ##### *[This project is under active development, there may be breaking changes.]*
