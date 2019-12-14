@@ -18,23 +18,53 @@ body {
   font-size: 16px;
 }
 
-div { box-sizing: border-box; font-size: 12px;  }
+div {
+  box-sizing: border-box;
+  font-size: 12px;
+}
 
-input, textarea, select { font-family: inherit; font-size: small; }
-textarea:focus, input:focus { outline: none; }
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: small;
+}
 
-.full-width { width: 100%; }
-.green { color: rgb(45, 139, 255); }
-.red { color: rgb(255, 115, 60); }
-.yellow { color: yellow; }
-.center-x { margin: 0 auto; }
-.center-text { width: 100%; text-align: center; }
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.green {
+  color: rgb(45, 139, 255);
+}
+
+.red {
+  color: rgb(255, 115, 60);
+}
+
+.yellow {
+  color: yellow;
+}
+
+.center-x {
+  margin: 0 auto;
+}
+
+.center-text {
+  width: 100%;
+  text-align: center;
+}
 
 .clearfix:after {
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 #vue-instance {
@@ -59,7 +89,7 @@ textarea:focus, input:focus { outline: none; }
   flex: 0 0 100%;
 }
 
-.message > p { 
+.message>p {
   min-width: 200px;
   display: inline-block;
   position: relative;
@@ -67,17 +97,19 @@ textarea:focus, input:focus { outline: none; }
   font-size: small;
   background: #000000;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
   padding: 7px;
   width: auto;
   border: 1px solid #eef8ff;
-  max-width: 70%
+  max-width: 70%;
+  text-transform: uppercase;
 }
+
 .keyId {
   color: rgb(255, 133, 2);
 }
 
-.title-header > p {
+.title-header>p {
   font-family: 'Nunito', sans-serif;
 }
 
@@ -102,7 +134,7 @@ textarea:focus, input:focus { outline: none; }
   padding-top: 1px;
   height: 2px;
   min-width: 200%;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   margin: 12px -12px;
   flex: 1;
 }
@@ -129,7 +161,10 @@ textarea:focus, input:focus { outline: none; }
   color: rgb(211, 211, 211);
 }
 
-.notification-message { flex: auto; }
+.notification-message {
+  flex: auto;
+}
+
 .notification:last-child {
   margin-bottom: 24px;
 }
@@ -143,30 +178,58 @@ textarea:focus, input:focus { outline: none; }
 /*Container*/
 
 .info-container {
-  border-width: 1px;
+  border-width: 2px;
   border-block-end: #0f0f0f00;
-  border-color: aqua;
+  border-color: rgb(0, 0, 0);
 }
 
 /*Fonts*/
 
-h1, h2, h3 { font-family: 'Nunito', sans-serif; }
-h1 { font-size: xx-large; }
-h2 { font-size: x-large; font-weight: 300; }
-h3 { font-size: x-small; font-weight: 300; }
-p { font-size: xx-small; }
-
-
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Nunito', sans-serif;
-	font-weight: 300;
-	margin-bottom: 0;
-	line-height: 1.35;
-	color: #fff;
+h1,
+h2,
+h3 {
+  font-family: 'Nunito', sans-serif;
 }
 
-.keys > .dividerkey {
+h1 {
+  font-size: xx-large;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: x-small;
+  font-weight: 300;
+}
+
+p {
+  font-size: xx-small;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+  line-height: 1.35;
+  color: #fff;
+}
+
+.keys>.dividerkey {
   padding-top: 1px;
   height: 1px;
   min-width: 100%;
@@ -186,13 +249,14 @@ h1, h2, h3, h4, h5, h6,
   padding: 0 1rem;
 }
 
-.navbar-inverse  {
+.navbar-inverse {
   color: #eef8ff;
   position: fixed top;
   overflow: hidden;
   width: 100%;
   top: 0;
 }
+
 .navbara {
   float: center;
   display: block;
@@ -211,14 +275,14 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .room-input {
- flex: 0 60%;
- background: black;
- border: none;
- border-bottom: 1px solid var(--light-color);
- border-top: 1px solid var(--light-color);
- border-left: 1px solid var(--light-color);
- color: var(--light-color);
- padding: 4px;
+  flex: 0 60%;
+  background: black;
+  border: none;
+  border-bottom: 1px solid var(--light-color);
+  border-top: 1px solid var(--light-color);
+  border-left: 1px solid var(--light-color);
+  color: var(--light-color);
+  padding: 4px;
 }
 
 .yellow-button {
@@ -234,7 +298,9 @@ h1, h2, h3, h4, h5, h6,
   color: var(--black);
 }
 
-.yellow > a { color: var(--highlight); }
+.yellow>a {
+  color: var(--highlight);
+}
 
 .loader {
   border: 4px solid black;
@@ -246,8 +312,13 @@ h1, h2, h3, h4, h5, h6,
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
- 100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 /*Message Input Bar*/
@@ -263,9 +334,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .bottom-bar {
-  border-top: solid 1px var(--light-color);
-  border-color: aqua;
-  background: black;
+  border-top: solid 2px;
+  border-color: rgb(0, 0, 0);
   position: fixed;
   bottom: 0;
   left: 0;
