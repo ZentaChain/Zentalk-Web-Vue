@@ -1,7 +1,8 @@
 /** The core Vue UI */
-const vm = new Vue ({
+
+const vm = new Vue({
   el: '#vue-instance',
-  data () {
+  data() {
     return {
       ZentalkWorker: null,
       socket: null,
@@ -15,26 +16,26 @@ const vm = new Vue ({
       address: null
     }
   },
-  async created () {
+  async created() {
     this.addNotification('Welcome to Zentalk-Web!')
-    this.addNotification('Please wait Zentalk will now Generating a new Key-Pair for you...')
+    this.addNotification('Please Wait Zentalk Generating New Key-Pair...')
     this.ZentalkWorker = new Worker('zentalk-worker.js')
     this.originPublicKey = await this.getWebWorkerResponse('generate-keys')
-    this.addNotification(`Zentalk:Hey your Keypairs are now generated :) - ${this.getKeySnippet(this.originPublicKey)}`)
+    this.addNotification(`Zentalk: Keypairs Are Now Generated: ${this.getKeySnippet(this.originPublicKey)}`)
     this.socket = io()
     this.setupSocketListeners()
   },
   methods: {
-    
-    setupSocketListeners () {
-      
+
+    setupSocketListeners() {
+
       this.socket.on('connect', () => {
-        this.addNotification('You are now Connected with Zentalk')
+        this.addNotification('You Are Now Connected With Zentalk')
         this.joinRoom()
       })
       this.socket.on('disconnect', () => this.addNotification('Lost Connection'))
       this.socket.on('MESSAGE', async (message) => {
-        
+
         if (message.recipient === this.originPublicKey) {
           message.text = await this.getWebWorkerResponse('decrypt', message.text)
           this.messages.push(message)
@@ -42,42 +43,44 @@ const vm = new Vue ({
       })
 
       this.socket.on('NEW_CONNECTION', () => {
-        this.addNotification('Another user has joined the room')
+        this.addNotification('Another User Has Joined The Room')
         this.sendPublicKey()
       })
 
-      
+
       this.socket.on('ROOM_JOINED', (newRoom) => {
         this.currentRoom = newRoom
-        this.addNotification(`You have Joined the Zentaroom - ${this.currentRoom}`)
+        this.addNotification(`You Have Joined The Zentaroom - ${this.currentRoom}`)
         this.sendPublicKey()
       })
 
-      
+
       this.socket.on('PUBLIC_KEY', (key) => {
         this.addNotification(`Public Key Received - ${this.getKeySnippet(key)}`)
         this.destinationPublicKey = key
       })
 
-      
+
       this.socket.on('user disconnected', () => {
-        this.notify(`User Disconnected - ${this.getKeySnippet(this.destinationKey)}`)
+        this.notify(`The User is Disconnected - ${this.getKeySnippet(this.destinationKey)}`)
         this.destinationPublicKey = null
       })
 
-      
+
       this.socket.on('ROOM_FULL', () => {
         this.addNotification(`Cannot join ${this.pendingRoom}, Zentaroom is full`)
-        this.pendingRoom = Math.floor(Math.random() * 1000 *10 )
+        this.pendingRoom = Math.floor(Math.random() * 1000 * 10)
         this.joinRoom()
       })
       this.socket.on('INTRUSION_ATTEMPT', () => {
         this.addNotification('A third user are attempted to join the Zentarooms')
       })
     },
-    
-    async sendMessage () {
-      if (!this.draft || this.draft === '') { return }
+
+    async sendMessage() {
+      if (!this.draft || this.draft === '') {
+        return
+      }
       let message = Immutable.Map({
         text: this.draft,
         recipient: this.destinationPublicKey,
@@ -87,36 +90,39 @@ const vm = new Vue ({
       this.addMessage(message.toObject())
 
       if (this.destinationPublicKey) {
-        
+
         const encryptedText = await this.getWebWorkerResponse(
-          'encrypt', [ message.get('text'), this.destinationPublicKey ])
+          'encrypt', [message.get('text'), this.destinationPublicKey])
         const encryptedMsg = message.set('text', encryptedText)
         this.socket.emit('MESSAGE', encryptedMsg.toObject())
       }
     },
 
-    
-    joinRoom () {
+
+    joinRoom() {
       if (this.pendingRoom !== this.currentRoom && this.originPublicKey) {
-        this.addNotification(`You are now Connecting to Zentaroom - ${this.pendingRoom}`)
+        this.addNotification(`Connecting to Zentaroom - ${this.pendingRoom}`)
         this.messages = []
         this.destinationPublicKey = null
         this.socket.emit('JOIN', this.pendingRoom)
       }
     },
-    
-    addMessage (message) {
+
+    addMessage(message) {
       this.messages.push(message)
       this.autoscroll(this.$refs.chatContainer)
     },
-    
-    addNotification (message) {
+
+    addNotification(message) {
       const timestamp = new Date().toLocaleTimeString()
-      this.notifications.push({ message, timestamp })
+      this.notifications.push({
+        message,
+        timestamp
+      })
       this.autoscroll(this.$refs.notificationContainer)
     },
 
-    getWebWorkerResponse (messageType, messagePayload) {
+    getWebWorkerResponse(messageType, messagePayload) {
       return new Promise((resolve, reject) => {
         const messageId = Math.floor(Math.random() * 100000 * 10)
         this.ZentalkWorker.postMessage([messageType, messageId].concat(messagePayload))
@@ -130,18 +136,20 @@ const vm = new Vue ({
       })
     },
 
-    sendPublicKey () {
+    sendPublicKey() {
       if (this.originPublicKey) {
         this.socket.emit('PUBLIC_KEY', this.originPublicKey)
       }
     },
-    
-    getKeySnippet (key) {
+
+    getKeySnippet(key) {
       return key.slice(400, 416)
     },
 
-    autoscroll (element) {
-      if (element) { element.scrollTop = element.scrollHeight }
+    autoscroll(element) {
+      if (element) {
+        element.scrollTop = element.scrollHeight
+      }
     }
   }
-});
+})
