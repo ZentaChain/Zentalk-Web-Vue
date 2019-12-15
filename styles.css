@@ -80,12 +80,15 @@ input:focus {
   flex: 0 0 60%;
   word-wrap: break-word;
   overflow-x: hidden;
-  padding: 0px;
+  padding: 8px;
   margin-bottom: 0px;
+  padding-top: 8px;
+  border-top: solid 5px;
+  border-left: solid 5px;
+  border-color: #000000;
 }
 
 .background {
-  background-image: url(background.png);
   flex: 0 0 100%;
 }
 
@@ -98,11 +101,12 @@ input:focus {
   background: #000000;
   color: #fff;
   border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
-  padding: 7px;
+  padding: 5px;
   width: auto;
   border: 1px solid #eef8ff;
   max-width: 70%;
   text-transform: uppercase;
+  letter-spacing: 0.02ch;
 }
 
 .keyId {
@@ -121,7 +125,7 @@ input:focus {
 
 .info-container {
   flex: 0 0 40%;
-  border: solid 1px var(--light-color);
+  border: 2px solid;
   padding: 12px;
   overflow-x: hidden;
   margin-bottom: 50px;
@@ -131,7 +135,7 @@ input:focus {
 }
 
 .divider {
-  padding-top: 1px;
+  padding-top: 5px;
   height: 2px;
   min-width: 200%;
   background: rgb(0, 0, 0);
@@ -142,8 +146,11 @@ input:focus {
 .notification-list {
   display: block;
   flex-direction: column;
-  padding-bottom: 20px;
   flex: 1 0 40%;
+  padding: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .notification {
@@ -156,7 +163,7 @@ input:focus {
 }
 
 .notification-timestamp {
-  flex: 0 15%;
+  flex: none;
   padding-right: 12px;
   color: rgb(211, 211, 211);
 }
@@ -178,7 +185,7 @@ input:focus {
 /*Container*/
 
 .info-container {
-  border-width: 2px;
+  border-width: 5px;
   border-block-end: #0f0f0f00;
   border-color: rgb(0, 0, 0);
 }
@@ -206,7 +213,9 @@ h3 {
 }
 
 p {
-  font-size: xx-small;
+  font-size: x-small;
+  text-align: start;
+  padding: 10px;
 }
 
 
@@ -227,6 +236,7 @@ h6,
   margin-bottom: 0;
   line-height: 1.35;
   color: #fff;
+
 }
 
 .keys>.dividerkey {
@@ -244,17 +254,17 @@ h6,
 
 .container-fluid {
   background: #0f0f0f;
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(0, 0, 0);
   width: 100%;
   padding: 0 1rem;
 }
 
 .navbar-inverse {
   color: #eef8ff;
-  position: fixed top;
-  overflow: hidden;
+  position: absolute;
   width: 100%;
-  top: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: x-large;
 }
 
 .navbara {
@@ -334,17 +344,17 @@ h6,
 }
 
 .bottom-bar {
-  border-top: solid 2px;
+  border-top: solid 5px;
   border-color: rgb(0, 0, 0);
   position: fixed;
   bottom: 0;
   left: 0;
   padding: 12px;
-  height: 48px;
 }
 
 .message-list {
   margin-bottom: 400px;
+  margin: 10px 0;
 }
 
 /*Schroll-Bar*/
