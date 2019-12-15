@@ -81,11 +81,12 @@ input:focus {
   word-wrap: break-word;
   overflow-x: hidden;
   padding: 8px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
   padding-top: 8px;
   border-top: solid 5px;
   border-left: solid 5px;
   border-color: #000000;
+  overflow-y: scroll;
 }
 
 .background {
@@ -106,7 +107,7 @@ input:focus {
   border: 1px solid #eef8ff;
   max-width: 70%;
   text-transform: uppercase;
-  letter-spacing: 0.02ch;
+  letter-spacing: 0.01ch;
 }
 
 .keyId {
@@ -188,6 +189,7 @@ input:focus {
   border-width: 5px;
   border-block-end: #0f0f0f00;
   border-color: rgb(0, 0, 0);
+  text-transform: uppercase;
 }
 
 /*Fonts*/
@@ -216,6 +218,7 @@ p {
   font-size: x-small;
   text-align: start;
   padding: 10px;
+  font-family: "nunito";
 }
 
 
@@ -340,16 +343,22 @@ h6,
   display: inline;
   width: 100%;
   outline: 0;
+  border-bottom: 1px solid #c10060;
+  font-family: "nunito";
+  font-size: 16px;
   resize: none !important;
+  text-transform: uppercase;
 }
 
 .bottom-bar {
-  border-top: solid 5px;
+  border: solid 5px;
   border-color: rgb(0, 0, 0);
   position: fixed;
   bottom: 0;
   left: 0;
   padding: 12px;
+  height: 48px;
+  background: #111111;
 }
 
 .message-list {
@@ -361,5 +370,12 @@ h6,
 
 ::-webkit-scrollbar {
   width: 0px;
-  overflow: hidden;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: none;
+  border-radius: 0;
+  border-radius: 0;
+  background: #c10060;
 }
