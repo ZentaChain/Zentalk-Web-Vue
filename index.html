@@ -4,7 +4,7 @@
 <head>
   <!-- Favicon -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="icon" type="image/png" href="favicon-16x16.png" alt="zentaicon">
+  <link rel="icon" type="image/png" href="zentachainlogoblack.png" zentaicon">
   <link href="/styles.css" rel="stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -14,116 +14,19 @@
   <meta name="description" content="Zentalk is a end-to-end, RSA-2048 Encrypted Chat-Application.">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <script language="JavaScript">
-    function disableCtrlKeyCombination(e) {
-
-      var forbiddenKeys = new Array("a", "s", "c", "u");
-      var key;
-      var isCtrl;
-      if (window.event) {
-        key = window.event.keyCode;
-        if (window.event.ctrlKey)
-          isCtrl = true;
-        else
-          isCtrl = false;
-      } else {
-        key = e.which;
-        if (e.ctrlKey)
-          isCtrl = true;
-        else
-          isCtrl = false;
-      }
-      if (isCtrl) {
-        for (i = 0; i < forbiddenKeys.length; i++) {
-
-          if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase()) {
-            return false;
-          }
-        }
-      }
-      return true;
-    }
-  </script>
-
-  <script type="text/javascript">
-    var message = "Sorry, right-click has been disabled";
-
-    function clickIE() {
-      if (document.all) {
-        (message);
-        return false;
-      }
-    }
-
-    function clickNS(e) {
-      if (document.layers || (document.getElementById && !document.all)) {
-        if (e.which == 2 || e.which == 3) {
-          (message);
-          return false;
-        }
-      }
-    }
-    if (document.layers) {
-      document.captureEvents(Event.MOUSEDOWN);
-      document.onmousedown = clickNS;
-    } else {
-      document.onmouseup = clickNS;
-      document.oncontextmenu = clickIE;
-    }
-    document.oncontextmenu = new Function("return false")
-  </script>
-
-  <script language="JavaScript">
-    document.onkeypress = function (event) {
-      event = (event || window.event);
-      if (event.keyCode == 123) {
-
-        return false;
-      }
-    }
-    document.onmousedown = function (event) {
-      event = (event || window.event);
-      if (event.keyCode == 123) {
-
-        return false;
-      }
-    }
-    document.onkeydown = function (event) {
-      event = (event || window.event);
-      if (event.keyCode == 123) {
-
-        return false;
-      }
-    }
-  </script>
-
 </head>
 
 <body>
 
   <body onkeypress="return disableCtrlKeyCombination(event);" onkeydown="return disableCtrlKeyCombination(event);">
   </body>
+
   <div id="vue-instance">
     <div class="chat-container full-width" ref="chatContainer">
-      <div class="logo">
-        <div class="navbar" style="fixed">
-          <nav class="navbar navbar-inverse ">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="https://zentachain.io">Zentalk</a>
-              </div>
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Chat</a></li>
-                <li><a href=https://zentachain.io/zentalk.html>About </a> </li> <li><a href="links.html"></a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
       <div class="message-list">
         <div class="message full-width" v-for="message in messages">
-          <p> <span
+          <p>
+            <span
               v-bind:class="(message.sender == originPublicKey) ? 'green' : 'red'">{{ getKeySnippet(message.sender) }}</span>
             &#10148; {{ message.text }} </p>
         </div>
@@ -142,7 +45,7 @@
 
         <div class="divider"></div>
         <div class="notification-list" ref="notificationContainer">
-          <h4 style="text-align:center;">NOTIFICATION</h4>
+
           <div class="notification full-width" v-for="notification in notifications">
             <div class="notification-timestamp">{{ notification.timestamp }}</div>
             <div class="notification-message">{{ notification.message }}</div>
@@ -177,7 +80,7 @@
       </div>
 
     </div>
-
+                                 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.slim.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.1/immutable.min.js"></script>
