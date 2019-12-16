@@ -22,8 +22,6 @@
     </em><br/>
     <a href="http://zentalk.chat"><strong>Zentalk</strong></a>
     <br/>
-    <br/>
-    <a href="https://github.com/ZentaChain/Zentalk-Web/">Github Docs»</a>
     ·
     <a href="http://zentalk.chat">Website</a>
     ·
