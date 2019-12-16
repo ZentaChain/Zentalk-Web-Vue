@@ -2,18 +2,17 @@
 <html lang="en">
 
 <head>
-  <!-- Favicon -->
+  <meta charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="icon" type="image/png" href="zentachainlogoblack.png" zentaicon">
+  <link rel="icon" type="image/png" href="zentachainlogoblack.png" alt:"zentaicon">
   <link href="/styles.css" rel="stylesheet">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Welcome to Zentalk-Web Application</title>
   <meta name="description" content="Zentalk is a end-to-end, RSA-2048 Encrypted Chat-Application.">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 </head>
 
 <body>
@@ -24,7 +23,11 @@
   <div id="vue-instance">
     <div class="chat-container full-width" ref="chatContainer">
       <div class="message-list">
-        <div class="message full-width" v-for="message in messages">
+        <div class="Header">
+          <div class="open-controlpanel icon flaticon-lines18" style="filter: hue-rotate(45deg);"></div>
+          <div class="currentChannel">#orbit</div>
+        </div>
+        <div class="message full-width green" v-for="message in messages">
           <p>
             <span
               v-bind:class="(message.sender == originPublicKey) ? 'green' : 'red'">{{ getKeySnippet(message.sender) }}</span>
@@ -45,7 +48,6 @@
 
         <div class="divider"></div>
         <div class="notification-list" ref="notificationContainer">
-
           <div class="notification full-width" v-for="notification in notifications">
             <div class="notification-timestamp">{{ notification.timestamp }}</div>
             <div class="notification-message">{{ notification.message }}</div>
@@ -55,16 +57,14 @@
         <div class="flex-fill"></div>
         <div class="divider"></div>
         <div class="keys full-width">
-          <h4 style="text-align:center;">THEIR PUBLIC KEY</h4>
           <div class="keyId" v-if="destinationPublicKey">
-            <h3>REDUCED IDENTIFICATION - {{ getKeySnippet(destinationPublicKey) }}</h3>
+            <h3>THEIR PUBLIC KEY & IDENTIFICATION - {{ getKeySnippet(destinationPublicKey) }}</h3>
             <p>{{ destinationPublicKey }}</p>
           </div>
           <h4 v-else style="text-align:center;">Waiting for second user to join room...</h4>
           <div class="dividerkey"></div>
-          <h4 style="text-align:center;">YOUR PUBLIC KEY</h4>
           <div class="key green" v-if="originPublicKey">
-            <h3>REDUCED IDENTIFICATION - {{ getKeySnippet(originPublicKey) }}</h3>
+            <h3>YOUR PUBLIC KEY & IDENTIFICATION - {{ getKeySnippet(originPublicKey) }}</h3>
             <p>{{ originPublicKey }}</p>
           </div>
           <div class="keypair-loader full-width" v-else>
@@ -75,12 +75,12 @@
       </div>
 
       <div class="bottom-bar full-width" id="message-input">
-        <input class="message-input" type="text" placeholder="Your Message" v-model="draft"
+        <input class="message-input" type="text" placeholder="Your Message..." v-model="draft"
           @keyup.enter="sendMessage()">
       </div>
 
     </div>
-                                 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.slim.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.1/immutable.min.js"></script>
