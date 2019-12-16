@@ -4,6 +4,7 @@ self.importScripts('https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/2.3.1/jsenc
 let crypt = null
 let privateKey = null
 
+
 onmessage = function (e) {
     const [message_type, text, key] = e.data
     let result
@@ -21,6 +22,7 @@ onmessage = function (e) {
     postMessage([message_type, result]);
 }
 
+
 function generateKeypair() {
     crypt = new JSEncrypt({
         default_key_size: 2056
@@ -29,10 +31,12 @@ function generateKeypair() {
     return crypt.getPublicKey()
 }
 
+
 function encrypt(content, publicKey) {
     crypt.setKey(publicKey)
     return crypt.encrypt(content)
 }
+
 
 function decrypt(content) {
     crypt.setKey(privateKey)
