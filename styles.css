@@ -54,10 +54,10 @@ input:focus {
 
 .red {
   color: rgb(255, 115, 60);
-  background-image:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg";
+  background-image:"";
     width: 150px;
     height: 150px;
-      border-radius: 50%;
+    border-radius: 50%;
 }
 
 
@@ -89,11 +89,10 @@ input:focus {
 }
 
 /*Chat Window*/
-
 .chat-container {
   flex: 0 0 60%;
   word-wrap: break-word;
-  overflow-x: hidden;
+  overflow-y: auto;
   padding: 8px;
   margin-bottom: 50px;
   padding-top: 8px;
@@ -134,7 +133,6 @@ input:focus {
 }
 
 /* Info Panel */
-
 #chatjoin {
   position: relative;
 }
@@ -195,11 +193,10 @@ input:focus {
 .keys {
   display: auto;
   font-size: small;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 /*Container*/
-
 .info-container {
   border-width: 5px;
   border-block-end: #0f0f0f00;
@@ -207,8 +204,7 @@ input:focus {
   text-transform: uppercase;
 }
 
-/*Fonts*/
-
+/*-----Fonts----*/
 h1,
 h2,
 h3 {
@@ -236,7 +232,6 @@ p {
   padding: 10px;
   font-family: 'Nunito';
 }
-
 
 h1,
 h2,
@@ -350,7 +345,6 @@ h6,
 }
 
 /*Message Input Bar*/
-
 .message-input {
   background-color: #0f0f0f;
   border: 0;
@@ -358,16 +352,50 @@ h6,
   display: flex;
   width: 100%;
   outline: 0;
-  border-bottom: 1px solid #c10060;
   font-family: "nunito";
   font-size: 16px;
-  
   text-transform: uppercase;
   align-items: center;
 }
 
+/*Message Animated Bar*/
+.gradient-border {
+  --borderWidth: 1px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  height: calc(100% + var(--borderWidth) * 1);
+  width: calc(100% + var(--borderWidth) * 1);
+  background: linear-gradient(60deg, #90571e, #ae503d, #a23654, #6b3875, #374f7e, #0b5e6a, #068473, #42714d);
+  z-index: -1;
+  animation: animatedgradient 59s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .bottom-bar {
-  border: solid 5px;
+  border-top: solid 5px;
+  border-left: solid 5px;
+  border-right: solid 5px;
   border-color: rgb(0, 0, 0);
   position: fixed;
   bottom: 0;
@@ -385,11 +413,4 @@ h6,
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: none;
-  border-radius: 0;
-  border-radius: 0;
-  background: #c10060;
 }
