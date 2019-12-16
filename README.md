@@ -29,12 +29,12 @@
   </p>
 </p>
 
-## ZENTALK
+## ZENTALK WEB
 
 The Platform you see is just an addon to the whole Zentachain universe. If you like you can contact us over E-mail , [Twitter](https://twitter.com/zentachain) or [Telegram](https://t.me/ZentachainOfficialChat). Our Team will help you out!
 
 ##### Timestamp
-- [x] *RSA,AES-256 14 Rounds(128 Bit Block Size*
+- [x] *RSA,AES-256 14 Rounds(128 Bit Block Size)*
 
 - [x] *Key-Share=El-Gamal*
 
@@ -51,11 +51,8 @@ The Platform you see is just an addon to the whole Zentachain universe. If you l
 ##### Visit:
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
 * [Zentalk Web](www.zentalk.chat)
-
 ##### *For more information about Zentalk :*
 ##### *Check our [Official Page](https://zentachain.io/) Zentachain*
 
 ##### *[This project is under active development, there may be breaking changes.]*
 ##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2019]*
-
-
