@@ -1,4 +1,4 @@
-self.window = self 
+self.window = self
 self.importScripts('http://bitwiseshiftleft.github.io/sjcl/sjcl.js');
 
 onmessage = function (e) {
@@ -15,11 +15,14 @@ onmessage = function (e) {
     postMessage([message_type, result]);
 }
 
+
 function encrypt(content, secret) {
     return sjcl.encrypt(secret, content, {
         ks: 256
     })
 }
+
+
 function decrypt(content, secret) {
     return sjcl.decrypt(secret, content, {
         ks: 256
