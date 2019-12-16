@@ -10,7 +10,7 @@
 body {
   background: var(--black);
   color: var(--light-color);
-  font-family: 'Roboto';
+  font-family: 'nutito';
   height: 100vh;
   display: flex;
   padding: 0;
@@ -43,9 +43,23 @@ input:focus {
   color: rgb(45, 139, 255);
 }
 
+.image--cover {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  object-fit: cover;
+  object-position: center right;
+}
+
 .red {
   color: rgb(255, 115, 60);
+  background-image:"https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg";
+    width: 150px;
+    height: 150px;
+      border-radius: 50%;
 }
+
 
 .yellow {
   color: yellow;
@@ -97,17 +111,18 @@ input:focus {
   min-width: 200px;
   display: inline-block;
   position: relative;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   font-size: small;
   background: #000000;
   color: #fff;
-  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  font-weight: 600;
   padding: 5px;
   width: auto;
   border: 1px solid #eef8ff;
   max-width: 70%;
   text-transform: uppercase;
   letter-spacing: 0.01ch;
+  border-radius: 5px 5px 5px 0px;
 }
 
 .keyId {
@@ -115,7 +130,7 @@ input:focus {
 }
 
 .title-header>p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
 }
 
 /* Info Panel */
@@ -155,7 +170,7 @@ input:focus {
 }
 
 .notification {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   font-weight: 300;
   font-size: 200;
   padding: 3px 0;
@@ -197,7 +212,7 @@ input:focus {
 h1,
 h2,
 h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
 }
 
 h1 {
@@ -212,19 +227,19 @@ h2 {
 h3 {
   font-size: x-small;
   font-weight: 300;
+  color: #c10060;
 }
 
 p {
   font-size: x-small;
   text-align: start;
   padding: 10px;
-  font-family: "nunito";
+  font-family: 'Nunito';
 }
 
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
@@ -234,7 +249,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   font-weight: 300;
   margin-bottom: 0;
   line-height: 1.35;
@@ -266,7 +281,7 @@ h6,
   color: #eef8ff;
   position: absolute;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Nunito';
   font-size: x-large;
 }
 
@@ -282,7 +297,7 @@ h6,
 .room-select {
   display: inline-flex;
   min-height: auto;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito';
   color: black;
   font-weight: auto;
 }
@@ -337,17 +352,18 @@ h6,
 /*Message Input Bar*/
 
 .message-input {
-  background: none;
+  background-color: #0f0f0f;
   border: 0;
   color: white;
-  display: inline;
+  display: flex;
   width: 100%;
   outline: 0;
   border-bottom: 1px solid #c10060;
   font-family: "nunito";
   font-size: 16px;
-  resize: none !important;
+  
   text-transform: uppercase;
+  align-items: center;
 }
 
 .bottom-bar {
@@ -358,7 +374,6 @@ h6,
   left: 0;
   padding: 12px;
   height: 48px;
-  background: #111111;
 }
 
 .message-list {
@@ -367,7 +382,6 @@ h6,
 }
 
 /*Schroll-Bar*/
-
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;
