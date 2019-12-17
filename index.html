@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>Zentalk-Web | Chat Application</title>
   <meta name="language" content="en">
-  <meta name="coverage" content="Worldwide">
+	<meta name="coverage" content="Worldwide">
+	<meta name="page-type" content="Chat Application">
   <link rel="icon" type="image/png" href="zentachainlogoblack.png" alt="Zentalk_Web_Logo">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -25,7 +26,8 @@
           <p>
             <span
               v-bind:class="(message.sender == originPublicKey) ? 'green' : 'red'">{{ getKeySnippet(message.sender) }}</span>
-            &#10148; {{ message.text }} </p>
+              &#10148; {{ message.text }} 
+          </p>
         </div>
       </div>
 
@@ -35,9 +37,11 @@
         <h4>CHATROOM</h4>
 
         <div class="room-select">
-          <input type="text" class="full-width" placeholder="Room Name" id="room-input" v-model="pendingRoom"
-            @keyup.enter="joinRoom()">
-          <input class="yellow-button full-width" type="submit" v-on:click="joinRoom()" value="JOIN">
+          <input type="text" class="room-id" placeholder="Room Name" id="room-id" v-model="pendingRoom"@keyup.enter="joinRoom()">
+        </div>
+
+        <div class="room-btn">
+          <input class="join-button" type="submit" v-on:click="joinRoom()" value="JOIN">
         </div>
 
         <div class="divider"></div>
@@ -70,11 +74,10 @@
 
       <div class="bottom-bar full-width" id="message-input">
       <div class="gradient-border">
-        <input class="message-input" type="text" placeholder="Your Message..." v-model="draft"
-          @keyup.enter="sendMessage()">
+        <input class="message-input" type="text" placeholder="Your Message..." v-model="draft" @keyup.enter="sendMessage()">
       </div>
-
     </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.1/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.slim.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/immutable/3.8.1/immutable.min.js"></script>
