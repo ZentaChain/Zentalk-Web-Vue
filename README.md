@@ -31,7 +31,7 @@
 
 ## ZENTALK WEB
 
-The Platform you see is just an addon to the whole Zentachain universe. If you like you can contact us over E-mail , [Twitter](https://twitter.com/zentachain) or [Telegram](https://t.me/ZentachainOfficialChat). Our Team will help you out!
+Platform you see is just an addon to the whole Zentachain universe. If you like it you can contact us through e-mail , [Twitter](https://twitter.com/zentachain) or [Telegram](https://t.me/ZentachainOfficialChat). Zentachain Team will help you!
 
 ##### Timestamp
 - [x] *RSA,AES-256 14 Rounds(128 Bit Block Size)*
