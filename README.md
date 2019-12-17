@@ -44,7 +44,7 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 
 *Zentalk Onion adress:[_____________]*
 
-*Tornetwork integration coming soon!*
+*Tor Network integration coming soon!*
 
 <!-- LICENSE -->
 ## *License and Links*
