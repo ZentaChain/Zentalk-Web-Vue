@@ -1,15 +1,4 @@
 
-
-
-
-<!--
-*** Hey, Welcome to Zentalks GitHub Page, we hope you like it :)
--->
-
-
-
-<!-- Zenta LOGO -->
-<br />
 <p align="center">
   <a href="zentachain.com">
     <img src="https://raw.githubusercontent.com/ZentaChain/Zentadex/master/logo.png" alt="Logo" width="70" height="80">
@@ -41,6 +30,7 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 - [ ]  *SSL certificate note there is no SSL Encryption but Application is safe. Manipulation is possible only on own log*
 
 - [ ]  *Man-in-the-browser protection*
+
 
 *Zentalk Onion adress:[_____________]*
 
