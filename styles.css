@@ -23,7 +23,6 @@ div {
   font-size: 12px;
 }
 
-
 textarea,
 select {
   font-family: inherit;
@@ -54,20 +53,17 @@ input:focus {
 
 .red {
   color: rgb(255, 115, 60);
-  background-image:"";
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+  background-image: "";
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
-
 
 .yellow {
   color: yellow;
 }
 
-.center-x {
-  margin: 0 auto;
-}
+.center-x {}
 
 .center-text {
   width: 100%;
@@ -96,9 +92,9 @@ input:focus {
   padding: 8px;
   margin-bottom: 50px;
   padding-top: 8px;
-  border-top: solid 5px;
-  border-left: solid 5px;
-  border-color: #000000;
+  border-top: solid 1px;
+  border-left: solid 1px;
+  border-color: rgb(35, 35, 35);
   overflow-y: scroll;
 }
 
@@ -152,7 +148,8 @@ input:focus {
   padding-top: 5px;
   height: 2px;
   min-width: 200%;
-  background: rgb(0, 0, 0);
+
+  background: rgb(35, 35, 35);
   margin: 12px -12px;
   flex: 1;
 }
@@ -186,10 +183,6 @@ input:focus {
   flex: auto;
 }
 
-.notification:last-child {
-  margin-bottom: 24px;
-}
-
 .keys {
   display: auto;
   font-size: small;
@@ -198,9 +191,9 @@ input:focus {
 
 /*Container*/
 .info-container {
-  border-width: 5px;
+  border-width: 1px;
   border-block-end: #0f0f0f00;
-  border-color: rgb(0, 0, 0);
+  border-color: rgb(35, 35, 35);
   text-transform: uppercase;
 }
 
@@ -257,7 +250,7 @@ h6,
   height: 1px;
   min-width: 100%;
   background: rgb(0, 0, 0);
-  margin: 12px -12px;
+  margin: auto;
   flex: 1;
 }
 
@@ -312,54 +305,94 @@ h6,
   border: 0;
   border-bottom: 1px solid #5e5e5e;
   padding: 0.2em;
+  padding-top: 20px;
 }
 
 /*.join-button*/
 .join-button {
-	font:normal normal 300 1.3em 'Open Sans';
-	text-decoration:none;
-  color:rgb(255, 255, 255);
+  font: normal normal 300 1.3em 'Open Sans';
+  text-decoration: none;
+  color: rgb(255, 255, 255);
   text-align: center;
-	border:1px solid rgb(105, 9, 57);
-	border-radius:100px;
-	padding: .3em 1.2em;
-	background-size: 200% 100%;
-	background-image: linear-gradient(to right, #191919 50%, rgba(105, 9, 57) 50%);
-	transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s,
-	color .5s ease 0s,
-  background-color .5s ease;
+  border: 1px solid rgb(105, 9, 57);
+  border-radius: 100px;
+  padding: .3em 1.2em;
+  background-size: 200% 100%;
+  background-image: linear-gradient(to right, #191919 50%, rgba(105, 9, 57) 50%);
+  transition: background-position .3s cubic-bezier(0.19, 1, 0.22, 1) .1s,
+    color .5s ease 0s,
+    background-color .5s ease;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  margin-top: 20px;
   height: 40px;
   width: 130px;
 }
 
 .join-button:hover {
-	color:rgba(255, 255, 255, 1);
-	background-color:rgba(105, 9, 57);
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(105, 9, 57);
   background-position: -100% 100%;
   transform: scale(1.1);
 }
 
 /*.Laoder*/
 .loader {
-  border: 4px solid black;
-  border-top: 4px solid var(--highlight);
+  width: 6em;
+  height: 6em;
+  font-size: 16px;
+  box-sizing: border-box;
+  position: absolute;
+  border-top: 0.2em solid rgba(105, 9, 57);
   border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  animation: spin 3s linear infinite;
+  position: relative;
+  animation: rotating 3s ease-in-out infinite;
+  --direction: 1;
+  margin: 0 auto;
+  margin-top: 100px;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
+.loader::before,
+.loader::after {
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  box-sizing: border-box;
+  top: -0.2em;
+}
+
+.loader::before {
+  border-top: 0.2em solid rgb(22, 108, 194);
+  transform: rotate(120deg);
+}
+
+.loader::after {
+  border-top: 0.2em solid rgb(193, 45, 0);
+  transform: rotate(240deg);
+}
+
+.loader span {
+  position: absolute;
+  color: white;
+  width: inherit;
+  height: inherit;
+  text-align: center;
+  line-height: 6em;
+  font-family: sans-serif;
+  animation: rotating 2s linear infinite;
+  --direction: -1;
+}
+
+@keyframes rotating {
+  50% {
+    transform: rotate(calc(180deg * var(--direction)));
   }
 
   100% {
-    transform: rotate(360deg);
+    transform: rotate(calc(360deg * var(--direction)));
   }
 }
 
@@ -412,10 +445,8 @@ h6,
 }
 
 .bottom-bar {
-  border-top: solid 5px;
-  border-left: solid 5px;
-  border-right: solid 5px;
-  border-color: rgb(0, 0, 0);
+  border-top: solid 1px;
+  border-color: rgb(35, 35, 35);
   position: fixed;
   bottom: 0;
   left: 0;
@@ -433,3 +464,73 @@ h6,
   width: 0px;
   height: 0px;
 }
+
+
+/*Hiden-PubKey*/
+.publicKey {
+  width: auto;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.publicKey--background {
+  background: var(--black);
+  position: absolute;
+  width: 150%;
+  height: 120%;
+  right: -50%;
+  top: 0;
+  transition: .20s all center ease-in-out;
+}
+
+.publicKey--visibleToggle {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.publicKey--visibleToggle-eye {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.publicKey--visibleToggle-eye.open {
+  transition: .1s all ease-out;
+
+}
+
+.publicKey--visibleToggle-eye.close {
+  transition: .2s .2s all ease-in-out;
+}
+
+.publicKey--visibleToggle-eye img {
+  width: 100%;
+}
+
+.publicKey--visibleToggle:checked~.publicKey--background {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.publicKey--visibleToggle:checked~.publicKey--visibleToggle-eye.close {
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+
+.publicKey--visibleToggle:checked~.publicKey--visibleToggle-eye.close {
+  opacity: 0;
