@@ -16,7 +16,6 @@
     ·
     <a href="http://Zentachain.io">Zentachain</a>
   </p>
-</p>
 
 ## ZENTALK WEB
 
@@ -31,18 +30,15 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 
 - [ ]  *Man-in-the-browser protection*
 
-
 *Zentalk Onion adress:[_____________]*
 
 *Tor Network integration coming soon!*
 
-<!-- LICENSE -->
-## *License and Links*
+### *License and Links*
 ##### Visit:
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
 * [Zentalk Web](www.zentalk.chat)
 ##### *For more information about Zentalk :*
 ##### *Check our [Official Page](https://zentachain.io/) Zentachain*
-
 ##### *[This project is under active development, there may be breaking changes.]*
 ##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2019]*
