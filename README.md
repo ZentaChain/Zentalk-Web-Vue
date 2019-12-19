@@ -12,8 +12,6 @@
     <a href="http://zentalk.chat"><strong>Zentalk</strong></a>
     <br/>
     ·
-    <a href="http://zentalk.chat">Website</a>
-    ·
     <a href="http://Zentachain.io">Zentachain</a>
   </p>
 
