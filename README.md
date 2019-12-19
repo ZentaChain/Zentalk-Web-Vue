@@ -27,7 +27,7 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 
 - [x] *Key-Share=El-Gamal*
 
-- [ ]  *SSL certificate note there is no SSL Encryption but Application is safe. Manipulation is possible only on own log*
+- [ ]  *Note there is no SSL Encryption but Application is safe. Manipulation is possible only on own log*
 
 - [ ]  *Man-in-the-browser protection*
 
