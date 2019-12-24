@@ -3,9 +3,7 @@
   <a href="zentachain.com">
     <img src="https://raw.githubusercontent.com/ZentaChain/Zentadex/master/logo.png" alt="Zentachain Logo Github" width="70" height="80">
   </a>
-
   <h3 align="center">Welcome to Zentalk Web Messenger App</h3>
-
   <p align="center"><em>
    Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
     </em><br/>
@@ -26,6 +24,8 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 - [x]  *Note there is no SSL Encryption but Application is safe. Manipulation is possible only on own log but not possible to decrypt Algorithm and Messages*
 
 - [ ]  *Man-in-the-browser protection*
+
+- [ ]  *File Supporting*
 
 *Zentalk Onion adress:[_____________]*
 
