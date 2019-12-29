@@ -1,5 +1,4 @@
 self.window = self 
-
 let keypair = null
 
 onmessage = function (e) { 
@@ -22,8 +21,6 @@ onmessage = function (e) {
 
 function generateKeypair() {
     keypair = sjcl.ecc.elGamal.generateKeys(256)
-
-
     return serializePublicKey(keypair.pub.get())
 }
 
