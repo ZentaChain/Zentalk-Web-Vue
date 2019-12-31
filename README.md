@@ -29,8 +29,6 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 
 *Zentalk Onion adress:[_____________]*
 
-*Tor Network integration coming soon!*
-
 ### *License and Links*
 ##### Visit:
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
