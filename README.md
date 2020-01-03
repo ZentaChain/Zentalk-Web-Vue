@@ -27,8 +27,6 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 
 - [ ]  *File Supporting*
 
-*Zentalk Onion adress:[_____________]*
-
 ### *License and Links*
 ##### Visit:
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
