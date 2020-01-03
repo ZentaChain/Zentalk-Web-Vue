@@ -34,4 +34,4 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 ##### *For more information about Zentalk :*
 ##### *Check our [Official Page](https://zentachain.io/) Zentachain*
 ##### *[This project is under active development, there may be breaking changes.]*
-##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2019]*
+##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2020]*
