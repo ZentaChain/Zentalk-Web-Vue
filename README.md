@@ -29,6 +29,32 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 
 - [ ]  *Version 1.3*
 
+#### Languages:
+
+- [x] English
+
+- [ ] German
+
+- [ ] Turkish
+
+- [ ] Russian
+
+- [ ] Chinese
+
+- [ ] Korean
+
+#### Theme:
+
+- [ ] Deep Black-Theme(Mod)
+
+- [x] White-Theme(Mod)
+
+- [x] Dark-Theme(Mod)
+
+- [ ] Multicolor-Theme(Mod)
+
+- [ ] Zombi-Theme(Mod)
+
 ### *License and Links*
 ##### Visit:
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
