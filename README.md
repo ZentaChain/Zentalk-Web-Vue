@@ -27,6 +27,8 @@ Platform you see is just an addon to the whole Zentachain universe. If you like 
 
 - [ ]  *File Supporting*
 
+- [ ]  *Version 1.3*
+
 ### *License and Links*
 ##### Visit:
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
