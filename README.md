@@ -21,7 +21,7 @@
 
 - [x]  *Note there is no SSL Encryption but Application is safe. Manipulation is possible only on own log but not possible to decrypt Algorithm and Messages*
 
-- [ ]  *Man-in-the-browser protection*
+- [x]  *Man-in-the-browser protection*
 
 - [ ]  *File Supporting*
 
