@@ -136,7 +136,7 @@ input:focus {
   flex: 0 0 30%;
   border: 2px solid;
   padding: 12px;
-  overflow-x: hidden;
+  overflow: hidden;
   margin-bottom: 50px;
   position: relative;
   justify-content: space-around;
