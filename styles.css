@@ -185,7 +185,7 @@ input:focus {
 .keys {
   display: auto;
   font-size: small;
-  overflow-x: scroll;
+  overflow-x: hidden;
 }
 
 /*Container*/
