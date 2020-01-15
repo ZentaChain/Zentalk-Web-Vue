@@ -58,7 +58,7 @@
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
 * [Zentalk Web](www.zentalk.chat)
 ##### *For more information about Zentalk :*
-##### *[Zentadocs](https:///) *
+##### *[Zentadocs](https:///)*
 ##### *[Official Page](https://zentachain.io/)*
 ##### *[This project is under active development, there may be breaking changes.]*
 ##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2020]*
