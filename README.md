@@ -15,7 +15,7 @@
 ## ZENTALK WEB
 
 ##### Timestamp & Features
-- [x] *RSA,AES-256 14 Rounds(128 Bit Block Size)*
+- [x] *RSA 2048, AES-256 14 Rounds(128 Bit Block Size)*
 
 - [x] *Key-Share=El-Gamal*
 
@@ -42,12 +42,11 @@
 - [ ] Korean
 
 #### Theme:
+- [x] Dark-Theme(Mod)
 
 - [ ] Deep Black-Theme(Mod)
 
-- [x] White-Theme(Mod)
-
-- [x] Dark-Theme(Mod)
+- [ ] White-Theme(Mod)
 
 - [ ] Multicolor-Theme(Mod)
 
@@ -56,7 +55,7 @@
 ### *License and Links*
 ##### Visit:
 * [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
-* [Zentalk Web](www.zentalk.chat)
+* [Zentalk Web](https://.zentalk.chat)
 ##### *For more information about Zentalk :*
 ##### *[Zentadocs](https:///)*
 ##### *[Official Page](https://zentachain.io/)*
