@@ -25,7 +25,7 @@
 
 - [ ]  *File Supporting*
 
-- [ ]  *Version 1.3*(Under Construction 31.08.2020)
+- [x]  *Version 1.3*(Under Construction 31.08.2020)
 
 #### Languages:
 
