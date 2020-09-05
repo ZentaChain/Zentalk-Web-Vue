@@ -23,9 +23,9 @@
 
 - [x]  *Man-in-the-browser protection*
 
-- [ ]  *File Supporting*
-
 - [x]  *Version 1.3*(Under Construction 31.08.2020)
+
+- [ ]  *File Supporting*
 
 #### Languages:
 
