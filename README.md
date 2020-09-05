@@ -5,11 +5,10 @@
   </a>
   <h3 align="center">Welcome to Zentalk Web Messenger App</h3>
   <p align="center"><em>
-   Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
+   Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application
     </em><br/>
-    <a href="http://zentalk.chat"><strong>Zentalk</strong></a>
+    <a href="http://zentalk.chat"><strong>Zentalk Web</strong></a>
     <br/>
-    <a href="http://Zentachain.io">Zentachain</a>
   </p>
 
 ## ZENTALK WEB
