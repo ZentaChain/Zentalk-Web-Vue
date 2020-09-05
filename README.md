@@ -18,8 +18,6 @@
 
 - [x] *Key-Share=El-Gamal*
 
-- [x]  *Note there is no SSL Encryption but Application is safe. Manipulation is possible only on own log but not possible to decrypt Algorithm and Messages*
-
 - [x]  *Man-in-the-browser protection*
 
 - [x]  *Version 1.3*(Under Construction 31.08.2020)
