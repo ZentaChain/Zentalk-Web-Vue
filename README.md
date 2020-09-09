@@ -22,6 +22,8 @@
 
 - [x]  *Version 1.3*(Under Construction 31.08.2020)
 
+- [x]  *Use it with Tor*
+
 - [ ]  *File Supporting*
 
 #### Languages:
