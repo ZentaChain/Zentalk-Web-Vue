@@ -43,7 +43,7 @@
 #### Theme:
 - [x] Dark-Theme(Mod)
 
-- [ ] Deep Black-Theme(Mod)
+- [x] Deep Black-Theme(Mod)
 
 - [ ] White-Theme(Mod)
 
