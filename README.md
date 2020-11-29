@@ -1,8 +1,5 @@
 
 <p align="center">
-  <a href="zentachain.com">
-    <img src="https://zentachain.io/rsz_zentachainlogo.png" alt="Zentachain Logo Github" width="70" height="80">
-  </a>
   <h3 align="center">Welcome to Zentalk Web Messenger App</h3>
   <p align="center"><em>
    Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application
