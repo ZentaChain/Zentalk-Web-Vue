@@ -55,5 +55,5 @@
 ##### *For more information about Zentalk :*
 ##### *[Zentadocs](https:///)*
 ##### *[Official Page](https://zentachain.io/)*
-##### *[This project is under active development, there may be breaking changes.]*
+##### *[This project is under active development, there may be some breaking changes.]*
 ##### *[Copyright all rights reserved Zentachain.io & 0xSha512 2020]*
