@@ -41,4 +41,4 @@
 ##### [Zentadocs](https://docs.zentachain.io)
 ##### [Official Page](https://zentachain.io/)
 ##### [This project is under active development, there may be some breaking changes.]
-##### [Copyright all rights reserved Zentachain.io & 0xSha512 2020]
+##### [Copyright all rights reserved Zentachain.io & 0xSha512 2021]
