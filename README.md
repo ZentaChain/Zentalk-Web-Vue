@@ -3,7 +3,7 @@
 Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
 This project is under active development, there may be some breaking changes!
 
-##### Timestamp & Features
+### Timestamp & Features
 - [x] RSA 2048, AES-256 14 Rounds(128 Bit Block Size)
 - [x] Key-Share=El-Gamal
 - [x]  Man-in-the-browser protection
@@ -11,7 +11,7 @@ This project is under active development, there may be some breaking changes!
 - [x]  Use it with Tor
 - [ ]  File Supporting
 
-#### Languages:
+### Languages:
 - [x] English
 - [ ] German
 - [ ] Turkish
@@ -19,17 +19,17 @@ This project is under active development, there may be some breaking changes!
 - [ ] Chinese
 - [ ] Korean
 
-#### Theme:
+### Theme:
 - [x] Dark-Theme(Mod)
 - [x] Deep Black-Theme(Mod)
 - [ ] White-Theme(Mod)
 - [ ] Multicolor-Theme(Mod)
 - [ ] Zombi-Theme(Mod)
 
-##### Visit:
+### Visit:
 
 [Zentalk Web](https://zentalk.chat)
 
 ### License
 
-[GNU Affero General Public License v3.0](https://github.com/ZentaChain/Zentanetwork/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/ZentaChain/Zentalk-Web/blob/master/LICENSE)
