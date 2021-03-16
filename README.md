@@ -1,14 +1,7 @@
+# Welcome to Zentalk Web App
 
-<p align="center">
-  <h3 align="center">Welcome to Zentalk Web Messenger App</h3>
-  <p align="center"><em>
-   Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application
-    </em><br/>
-    <a href="https://zentalk.chat"><strong>Zentalk Web</strong></a>
-    <br/>
-  </p>
-  
-## ZENTALK WEB
+Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
+This project is under active development, there may be some breaking changes!
 
 ##### Timestamp & Features
 - [x] RSA 2048, AES-256 14 Rounds(128 Bit Block Size)
@@ -33,12 +26,10 @@
 - [ ] Multicolor-Theme(Mod)
 - [ ] Zombi-Theme(Mod)
 
-### License and Links
 ##### Visit:
-* [Zentalk Mobile](https://github.com/ZentaChain/Zentalk-Mobile)
-* [Zentalk Web](https://.zentalk.chat)
-##### For more information about Zentalk :
-##### [Zentadocs](https://docs.zentachain.io)
-##### [Official Page](https://zentachain.io/)
-##### This project is under active development, there may be some breaking changes
-##### Copyright all rights reserved Zentachain.io & 0xSha512 2021
+
+[Zentalk Web](https://zentalk.chat)
+
+### License
+
+[GNU Affero General Public License v3.0](https://github.com/ZentaChain/Zentanetwork/blob/master/LICENSE)
