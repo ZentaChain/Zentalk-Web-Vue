@@ -3,7 +3,7 @@
 Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
 This project is under active development, there may be some breaking changes!
 
-### Documentation
+### Documentation:
 
 [Documentation](https://docs.zentachain.io/zentalk/zentalk-web)
 
