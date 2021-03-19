@@ -5,9 +5,9 @@ This project is under active development, there may be some breaking changes!
 
 ### Documentation:
 
-[Documentation](https://docs.zentachain.io/zentalk/zentalk-web)
+[Zentalk Web](https://docs.zentachain.io/zentalk/zentalk-web)
 
-### Visit Zentalk Web:
+### Page:
 
 [Zentalk Web](https://zentalk.chat)
 
