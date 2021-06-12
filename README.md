@@ -1,11 +1,10 @@
-# Welcome to Zentalk Web App
+# Zentalk Web - Vue
+
+## This project is no more longer under active development please go to the react version:
+
+[React-version](https://github.com/ZentaChain/Zentalk-Web-React)
 
 Zentalk Web is a highly secure Hybrid-Encrypted Web Chat Application.
-This project is under active development, there may be breaking changes!
-
-### Documentation:
-
-[Zentalk Web](https://docs.zentachain.io/zentalk/zentalk-web)
 
 ### Page:
 
